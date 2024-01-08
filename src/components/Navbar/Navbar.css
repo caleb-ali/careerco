@@ -1,0 +1,184 @@
+.topblue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #0F0A2A;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+.topbluespan{
+    font-weight: 400;
+}
+
+
+.navbardesktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .navigationdesktop {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 3rem;
+  }
+  
+  li {
+    font-weight: 400;
+    font-size: small;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .button_container_desktops {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  
+  .navbarsignin {
+    border-radius: 9px;
+    border: 1px solid #0374e4;
+    background-color: #fff;
+    padding: 6px;
+  }
+  
+  .navbarsignin a {
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    font-size: small;
+  }
+  
+  .navbarpostajob {
+    border: none;
+    border-radius: 8.876px;
+    background: #0374e4;
+    padding: 6px;
+  }
+  
+  .navbarpostajob a {
+    text-decoration: none;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 600;
+    font-size: small;
+  }
+  
+  .navbarmobile {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbardesktop {
+      display: none;
+    }
+  
+    .mobile_logo {
+      width: 4rem;
+     
+    }
+  
+    .navbarmobile {
+      display: block;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .mobiletop {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 16rem;
+      margin-top: 0.5rem;
+      
+    }
+  
+    .mobilebottom{
+    display: none;
+    }
+  
+    .navmenu {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2rem;
+      margin-left: 1rem;
+    }
+  
+    .mobile-btn-cnt {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      margin-bottom: 3rem;
+      margin-top: 2rem;
+    }
+  
+    .NavBar-SignInbtn {
+      border-radius: 9px;
+      border: 1px solid #0374e4;
+      background-color: #fff;
+      padding: 6px;
+      height: 2rem;
+      width: 8rem;
+    }
+  
+    .NavBar-SignInbtn a {
+      color: #000;
+      text-align: center;
+      font-weight: 600;
+      font-size: small;
+    }
+  
+    .NavBar-SignUpbtn {
+      background-color: #0374e4;
+      border-radius: 5px;
+      border: none;
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+      height: 2rem;
+      width: 8rem;
+      text-align: center;
+    }
+  
+    .NavBar-SignUpbtn a {
+      text-decoration: none;
+      color: #fff;
+      white-space: nowrap;
+      text-align: center;
+      font-weight: 600;
+      font-size: small;
+    }
+  
+    .mobnavigations{
+      display: flex;
+      flex-direction: row;
+      gap: 0.8rem;
+      align-items: center;
+      margin-left: 1.1rem;
+    }
+  }
+  
