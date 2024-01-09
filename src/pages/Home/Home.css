@@ -1,0 +1,125 @@
+.hero1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8.5rem;
+  margin-top: 5rem;
+}
+
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero_left h1 {
+  font-size: 3rem;
+}
+
+.hero_left p {
+  font-size: small;
+}
+
+.hero_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btn2 {
+  border-radius: 20px;
+  background-color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-width: 1px;
+  color: #0f0a2a;
+}
+
+.accredited {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-size: small;
+}
+
+.hero_image {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.hero2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rem;
+  gap: 2rem;
+}
+
+.hero5_left {
+  position: relative;
+  left: 14rem;
+  top: 23rem;
+}
+
+.hero5_left h1 {
+    margin-bottom: 1rem;
+}
+
+.hero5_left p {
+    margin-bottom: 1.5rem;
+    font-size: small;
+}
+
+.hero5img {
+  z-index: -1;
+  margin-left: 10%;
+}
+
+.hero6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.hero6_left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 10%;
+}
+
+.hero6_left p{
+    font-size: small;
+}
+
+.hero7{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero7_top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.hero7_top p {
+    font-size: small;
+}
+
+.hero7_bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

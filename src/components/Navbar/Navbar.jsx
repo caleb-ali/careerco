@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import circle from "../../assets/images/navigation/circle.png";
+import careerco from "../../assets/images/navigation/logo.svg";
+import search from "../../assets/images/navigation/search.svg";
 
 const Navbar = () => {
   const [isImage1Visible, setIsImage1Visible] = useState(true);
@@ -23,7 +25,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="topblue">
-        <img src={circle} width="3%" height="3%" />
+        <img src={circle} width="3%" height="3%" className="circle"/>
         <p>
           Discover your career path here{" "}
           <span className="topbluespan">Take a Quiz</span>
@@ -32,10 +34,18 @@ const Navbar = () => {
       <div>
         <div>
           <div className="navbardesktop">
-            <div>
-              <Link to="/Hero">
-                <img />
+            <div className="careerco">
+              <Link to="/">
+                <img src={careerco} />
               </Link>
+              <div>
+                <img src={search}  className="search_logo"/>
+                <input
+                  className="search_course"
+                  type="text"
+                  placeholder="search courses"
+                />
+              </div>
             </div>
             <nav className="navigationdesktop">
               <div>
@@ -55,8 +65,8 @@ const Navbar = () => {
                 </ul>
               </div>
 
-              <div className="button_container_desktops">
-                <button className="navbarsignin">
+              <div className="">
+                <button className="join">
                   <Link to="/join">Join for free</Link>
                 </button>
               </div>
@@ -66,7 +76,7 @@ const Navbar = () => {
           <div className="navbarmobile">
             <div className="mobiletop">
               <Link to="/Hero">
-                <img  className="mobile_logo" />
+                <img src={careerco} className="mobile_logo" />
               </Link>
               <div onClick={toggleImage} className="">
                 {isImage1Visible ? <GiHamburgerMenu /> : <GrClose />}
@@ -75,7 +85,7 @@ const Navbar = () => {
 
             <div className="mobilebottom" id="mobilebottom">
               <div className="mobile-btn-cnt">
-              <button className="navbarsignin">
+                <button className="join">
                   <Link to="/join">Join for free</Link>
                 </button>
               </div>
@@ -93,7 +103,6 @@ const Navbar = () => {
                 <li className="mobnavigations">
                   <Link to="/contactus">Contact us</Link>
                 </li>
-               
               </ul>
             </div>
           </div>
