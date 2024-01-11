@@ -1,9 +1,9 @@
 import React from 'react'
 
-const JoinForFree = () => {
+const JoinF = () => {
   return (
     <div>JoinForFree</div>
   )
 }
 
-export default JoinForFree
+export default Join

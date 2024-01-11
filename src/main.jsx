@@ -7,7 +7,7 @@ import Home from "./pages/Home/Home.jsx"
 import Courses from "./pages/Courses/Courses.jsx";
 import AboutMe from "./pages/AboutMe/AboutMe.jsx";
 import ContactUs from "./Pages/ContactUs/ContactUs.jsx";
-import Join from "./Pages/JoinForFree/JoinForFree.jsx";
+import Join from "./pages/JoinForFree/Join.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([

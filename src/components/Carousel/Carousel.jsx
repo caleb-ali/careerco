@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from "react";
 import "./Carousel.css";
 
+
 const Carousel = ({ items }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -13,6 +14,7 @@ const Carousel = ({ items }) => {
     setCurrentIndex((prevIndex) => (prevIndex < items.length - 3 ? prevIndex + 1 : prevIndex));
   };
 
+
   return (
     <div className="carousel-container">
       <button onClick={goBack}>Back</button>
@@ -20,7 +22,12 @@ const Carousel = ({ items }) => {
         {items.slice(currentIndex, currentIndex + 3).map((item, index) => (
           <div key={index} className="card">
             <img src={item.image} alt={item.title} />
+            <div className='carousel_title_div'>
             <h3>{item.title}</h3>
+            <p>{item.price}</p>
+            </div>
+            <div></div>
+            <button></button>
             <button>{item.buttonText}</button>
           </div>
         ))}
