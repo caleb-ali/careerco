@@ -1,29 +1,73 @@
 .carousel-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-  
-  .carousel {
-    display: flex;
-    overflow: hidden;
-     /* Adjust the width based on your needs */
-  }
-  
-  .card {
-    margin: 0 15px;
-    text-align: center;
-  }
-  
-  /* .card img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  z-index: -1;
+  /* Adjust the width based on your needs */
+}
+
+.card {
+  margin: 0 15px;
+  text-align: left;
+}
+
+/* .card img {
   
     
   } */
 
-  .carousel_title_div{
-    display: flex;
-    flex-direction: row;
-  }
+.carousel_title_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.carousel_title_div h3 {
+  font-size: medium;
+  font-weight: 600;
+  /* margin-bottom: 1rem; */
+}
+
+.carousel_title_div p {
+  font-size: medium;
+  font-weight: 600;
+  color: #34a853;
+}
+
+.back_btn {
+  margin-right: -2rem;
+  margin-top: -5.5rem;
+}
+
+.forward_btn {
+  margin-left: -2rem;
+  margin-top: -5.5rem;
+}
+
+.card_row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card_row p {
+  font-size: small;
+}
+
+.card_row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .1rem;
+}
+
