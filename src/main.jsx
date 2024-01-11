@@ -6,7 +6,7 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage.jsx";
 import Home from "./pages/Home/Home.jsx"
 import Courses from "./pages/Courses/Courses.jsx";
 import AboutMe from "./pages/AboutMe/AboutMe.jsx";
-import ContactUs from "./Pages/ContactUs/ContactUs.jsx";
+import ContactUs from "./Pages/ContactUs/Contactus.jsx";
 import Join from "./pages/JoinForFree/Join.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
