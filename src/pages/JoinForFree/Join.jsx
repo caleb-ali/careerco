@@ -1,6 +1,6 @@
 import React from 'react'
 
-const JoinF = () => {
+const Join = () => {
   return (
     <div>JoinForFree</div>
   )
