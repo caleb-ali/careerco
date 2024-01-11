@@ -1,0 +1,22 @@
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    width: 30rem; /* Adjust the width based on your needs */
+  }
+  
+  .card {
+    margin: 0 15px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%; /* Adjust as necessary */
+    height: auto;
+  }

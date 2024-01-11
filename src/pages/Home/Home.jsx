@@ -1,5 +1,8 @@
 import React from "react";
 import "./Home.css";
+import { useState } from "react";
+import items from "./items";
+import Carousel from "../../components/Carousel/Carousel";
 import hero from "../../assets/images/Homepage/hero.svg";
 import iiba from "../../assets/images/Homepage/iiba.svg";
 import companies from "../../assets/images/Homepage/companies.svg";
@@ -10,10 +13,25 @@ import hero5 from "../../assets/images/Homepage/hero5.svg";
 import hero6 from "../../assets/images/Homepage/hero6.svg";
 import istqb from "../../assets/images/Homepage/istqb.svg";
 import council from "../../assets/images/Homepage/council.svg";
+import counseling from "../../assets/images/Homepage/counseling.svg";
+import interview from "../../assets/images/Homepage/interview.svg";
+import writers from "../../assets/images/Homepage/writers.svg";
 
-// import { coursedata, startdata } from "./Data";
+// import { coursedata } from "./Data";
 
 const Home = () => {
+  const [index, setIndex] = useState(0);
+  const length = 3;
+  const handlePrevious = () => {
+    const newIndex = index - 1;
+    setIndex(newIndex < 0 ? length - 1 : newIndex);
+  };
+
+  const handleNext = () => {
+    const newIndex = index + 1;
+    setIndex(newIndex >= length ? 0 : newIndex);
+  };
+
   return (
     <div>
       <div className="hero1">
@@ -32,7 +50,7 @@ const Home = () => {
               <a>Get Started</a>
             </button>
             <button className="btn2">
-              <a>Join Webinar</a>
+              <a>Speak to a Coach</a>
             </button>
           </div>
           <div className="accredited">
@@ -46,13 +64,87 @@ const Home = () => {
         </div>
       </div>
       <div className="hero2">
-        <h4>Trained Alumni that working in these companies</h4>
+        <h2>Trained Alumni that working in these companies</h2>
         <img src={companies} />
       </div>
-      <div className="hero3"></div>
+      <div className="hero3">
+        <h2>Our Courses</h2>
+        <p>
+          Start the Journey to change your career today and standout in today's
+          job market
+        </p>
+        <Carousel items={items} />
+      </div>
       <div className="hero4">
-        <h2></h2>
-        <p></p>
+        <h2>Not Sure Where to Begin</h2>
+        <p>
+          Start from these popular and straightforwardcourses that gives you
+          access to rich educationalcontents.
+        </p>
+        <div className="card_container">
+          <div className="card2">
+            <img src={counseling} />
+            <h4>
+              Career <br />
+              Counseling
+            </h4>
+            <p>
+              Our Expert Counsellors Provides Personalised
+              <br />
+              Career GuidianceAnd Advice To Help You Make
+              <br />
+              Informed Choices.
+            </p>
+            <div className="home_btns">
+              <button className="card_btn">
+                <a>Speak to a Coach</a>
+              </button>
+              <button className="card_btn">
+                <a>Speak to a Coach</a>
+              </button>
+            </div>
+          </div>
+          <div className="card2">
+            <img src={interview} />
+            <h4>
+              Prepare For Your Next
+              <br /> Interview
+            </h4>
+            <p>
+              Build your confidence and gain effective interview
+              <br />
+              strategies to communicate your values and
+              <br />
+              impress potential employers.
+            </p>
+            <div className="card_btn_ctn">
+              <button className="card_btn">
+                <a>Speak to a Coach</a>
+              </button>
+            </div>
+          </div>
+          <div className="card2">
+            <img src={writers} />
+            <h4>
+              Craft Standout Resume With
+              <br /> Our Writers
+            </h4>
+            <p>
+              Craft resume that highlight your skills,your
+              <br />
+              experience,and achievements. Stand out from the
+              <br />
+              crowd and make a lasting impression on potential
+              <br />
+              employers with a professional resume.
+            </p>
+            <div className="card_btn_ctn">
+              <button className="card_btn">
+                <a>Speak to a Coach</a>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="hero5">
         <div className="hero5_left">

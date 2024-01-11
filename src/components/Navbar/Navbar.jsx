@@ -67,7 +67,7 @@ const Navbar = () => {
 
               <div className="">
                 <button className="join">
-                  <Link to="/join">Join for free</Link>
+                  <Link to="/join">Join a webinar</Link>
                 </button>
               </div>
             </nav>

@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import ErrorPage from "./pages/ErrorPage/ErrorPage.jsx";
 import Home from "./pages/Home/Home.jsx"
 import Courses from "./pages/Courses/Courses.jsx";
-import AboutMe from "./Pages/AboutMe/AboutMe.jsx";
+import AboutMe from "./pages/AboutMe/AboutMe.jsx";
 import ContactUs from "./Pages/ContactUs/ContactUs.jsx";
 import Join from "./Pages/JoinForFree/JoinForFree.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";

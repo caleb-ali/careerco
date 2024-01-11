@@ -3,8 +3,8 @@
   flex-direction: row;
   margin-left: 8.5rem;
   margin-top: 5rem;
-}
-
+} 
+ 
 .hero_left {
   display: flex;
   flex-direction: column;
@@ -17,9 +17,9 @@
 
 .hero_left p {
   font-size: small;
-}
+} 
 
-.hero_btn {
+ .hero_btn {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -59,10 +59,84 @@
   gap: 2rem;
 }
 
+.hero3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.hero4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.hero4 p {
+  font-size: small;
+}
+
+.hero4 h2 {
+  margin-bottom: 1rem;
+}
+
+.card_container{
+  display: flex;
+  flex-direction: row;
+  gap: 1.7rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.card2{
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 1rem;
+  border-width: 1px;
+  color: #E4E4E4;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card_btn{
+  border-radius: 20px;
+  border: none;
+  background-color: #0f0a2a;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+.card_btn a {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: small;
+  font-weight: 300;
+}
+.home_btns{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+}
+
+.card_btn_ctn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .hero5_left {
-  position: relative;
-  left: 14rem;
-  top: 23rem;
+  position: absolute;
+  /* left: 14rem;
+  top: 23rem; */
+  padding-left: 14rem;
+  padding-top: 10rem;
 }
 
 .hero5_left h1 {
@@ -122,4 +196,8 @@
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+@media screen and (max-width: 768px){
+
 }
