@@ -1,5 +1,5 @@
 .footer_top {
-  background-color: #f1f8f5;
+  /* background-color: #001A04; */
   margin-top: 5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -62,7 +62,7 @@
 .subscribe {
   border-radius: 5px;
   border: none;
-  background-color: #0f0a2a;
+  background-color: #001A04;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
   padding-left: 1rem;

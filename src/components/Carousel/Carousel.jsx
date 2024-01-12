@@ -15,7 +15,7 @@ const Carousel = ({ items }) => {
   };
 
   const goForward = () => {
-    setCurrentIndex((prevIndex) => (prevIndex < items.length - 3 ? prevIndex + 1 : prevIndex));
+    setCurrentIndex((prevIndex) => (prevIndex < items.length - 4 ? prevIndex + 1 : prevIndex));
   };
 
 
@@ -23,9 +23,9 @@ const Carousel = ({ items }) => {
     <div className="carousel-container">
       <img src={back} onClick={goBack} className='back_btn'/>
       <div className="carousel">
-        {items.slice(currentIndex, currentIndex + 3).map((item, index) => (
+        {items.slice(currentIndex, currentIndex + 4).map((item, index) => (
           <div key={index} className="card">
-            <img src={item.image} alt={item.title} />
+            <img src={item.image} alt={item.title} width="250px"/>
             <div className='carousel_title_div'>
             <h3>{item.title}</h3>
             <p>{item.price}</p>

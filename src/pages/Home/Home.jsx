@@ -9,27 +9,24 @@ import companies from "../../assets/images/Homepage/companies.svg";
 import agile from "../../assets/images/Homepage/agile.svg";
 import apmg from "../../assets/images/Homepage/apmg.svg";
 import devops from "../../assets/images/Homepage/devops.svg";
-import hero5 from "../../assets/images/Homepage/hero5.svg";
-import hero6 from "../../assets/images/Homepage/hero6.svg";
+import rings from "../../assets/images/Homepage/rings.svg";
+import phone from "../../assets/images/Homepage/phone.svg";
 import istqb from "../../assets/images/Homepage/istqb.svg";
 import council from "../../assets/images/Homepage/council.svg";
 import counseling from "../../assets/images/Homepage/counseling.svg";
 import interview from "../../assets/images/Homepage/interview.svg";
 import writers from "../../assets/images/Homepage/writers.svg";
 
-
-
 // import { coursedata } from "./Data";
 
 const Home = () => {
- 
   return (
     <div>
       <div className="hero1">
         <div className="hero_left">
           <h1>
-            Learning By Doing Get <br />
-            Practical! Get A Job!
+            Acquire tech skills through
+            <br /> experiential learning.
           </h1>
           <p>
             We offer diverse courses and guarantee dream job success through
@@ -55,83 +52,79 @@ const Home = () => {
         </div>
       </div>
       <div className="hero2">
-        <h2>Trained Alumni that working in these companies</h2>
+        <h4>Trained Alumni that working in these companies</h4>
         <img src={companies} />
       </div>
       <div className="hero3">
-        <h2>Our Courses</h2>
+        <h2>Choose a Course</h2>
         <p>
-          Start the Journey to change your career today and standout in today's
-          job market
+          Strengthen your employability with the tech skills and experience
+          <br />
+          required to succeed on the job.
         </p>
         <Carousel items={items} />
       </div>
       <div className="hero4">
         <h2>Not Sure Where to Begin</h2>
         <p>
-          Start from these popular and straightforwardcourses that gives you
-          access to rich educationalcontents.
+          If you are unsure about which path to take, book a session with our
+          <br />
+          professional career coach for any career advice or support.
         </p>
         <div className="card_container">
           <div className="card2">
-            <img src={counseling} />
+            <img src={counseling} height="230rem" />
             <h4>
               Career <br />
               Counseling
             </h4>
             <p>
-              Our Expert Counsellors Provides Personalised
-              <br />
-              Career GuidianceAnd Advice To Help You Make
-              <br />
+            Our Expert Counsellors Provides Personalised<br/>
+             Career Guidiance And Advice To Help You Make<br/>
               Informed Choices.
             </p>
             <div className="home_btns">
               <button className="card_btn">
-                <a>Speak to a Coach</a>
+                <a>Book a session</a>
               </button>
-              <button className="card_btn">
-                <a>Speak to a Coach</a>
+              <button className="btn2">
+                <a>Take a quiz</a>
               </button>
             </div>
           </div>
           <div className="card2">
-            <img src={interview} />
+            <img src={interview} height="230rem" />
             <h4>
               Prepare For Your Next
               <br /> Interview
             </h4>
             <p>
-              Build your confidence and gain effective interview
-              <br />
-              strategies to communicate your values and
-              <br />
+              Build your confidence and gain effective<br/> interview
+              
+              strategies to communicate your values<br/> and
+              
               impress potential employers.
             </p>
             <div className="card_btn_ctn">
               <button className="card_btn">
-                <a>Speak to a Coach</a>
+                <a>Book a spot</a>
               </button>
             </div>
           </div>
           <div className="card2">
-            <img src={writers} />
+            <img src={writers} height="230rem" />
             <h4>
-              Craft Standout Resume With
-              <br /> Our Writers
+              Craft Standout Resume <br />
+              With Our Writers
             </h4>
             <p>
-              Craft resume that highlight your skills,your
-              <br />
-              experience,and achievements. Stand out from the
-              <br />
-              crowd and make a lasting impression on potential
-              <br />
-              employers with a professional resume.
+            Craft resume that highlight your skills, your<br/>
+             experience, and achievements. Stand out from the<br/>
+              crowd and make a lasting impression.
             </p>
             <div className="card_btn_ctn">
               <button className="card_btn">
-                <a>Speak to a Coach</a>
+                <a>Book a spot</a>
               </button>
             </div>
           </div>
@@ -140,11 +133,11 @@ const Home = () => {
       <div className="hero5">
         <div className="hero5_left">
           <h1>
-            We Assist Immigrant & Individuals <br />
-            In Navigating The Job Market.
+            We Assist Immigrant &<br/> Individuals 
+            In Navigating<br/> The Job Market.
           </h1>
           <p>
-            We understand the unique challenges faced by newimmigrants in
+            We understand the unique challenges faced by new immigrants in
             <br />
             finding suitable employment. Ourcomprehensive programs are
             <br />
@@ -156,7 +149,10 @@ const Home = () => {
             <a>Read Testimonials</a>
           </button>
         </div>
-        <img src={hero5} className="hero5img" />
+        <div className="hero5_background">
+         <img src={rings} width="30%" className="hero5_rings"/>
+         <img src={phone} width="40%" className="hero5_phone"/>
+        </div>
       </div>
       <div className="hero6">
         <div className="hero6_left">
@@ -175,10 +171,11 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <img src={hero6} />
+        
         </div>
       </div>
       <div className="hero7">
+        <div className="hero7_container">
         <div className="hero7_top">
           <h1>Authorized Certification</h1>
           <p>
@@ -194,6 +191,8 @@ const Home = () => {
           <img src={council} />
           <img src={istqb} />
         </div>
+        </div>
+        
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
 .carousel-container {
   display: flex;
   flex-direction: row;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 1rem;
+ 
 }
 
 .carousel {
@@ -15,6 +15,12 @@
 .card {
   margin: 0 15px;
   text-align: left;
+  background-color: #f9fafb;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  border-radius: 20px;
+  border: 1px solid #CED1D5;
+  
 }
 
 /* .card img {
@@ -30,25 +36,25 @@
 }
 
 .carousel_title_div h3 {
-  font-size: medium;
+  font-size: small;
   font-weight: 600;
   /* margin-bottom: 1rem; */
 }
 
 .carousel_title_div p {
-  font-size: medium;
+  font-size: small;
   font-weight: 600;
   color: #34a853;
 }
 
 .back_btn {
-  margin-right: -2rem;
-  margin-top: -5.5rem;
+  margin-right: -1.5rem;
+  
 }
 
 .forward_btn {
-  margin-left: -2rem;
-  margin-top: -5.5rem;
+  margin-left: -1.5rem;
+ 
 }
 
 .card_row {
@@ -63,11 +69,10 @@
   font-size: small;
 }
 
-.card_row2{
+.card_row2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: .1rem;
+  gap: 0.1rem;
 }
-
