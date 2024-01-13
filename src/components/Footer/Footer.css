@@ -1,11 +1,12 @@
 .footer_top {
-  /* background-color: #001A04; */
+  background-color: #001A04;
   margin-top: 5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  
 }
 .top1 {
   display: flex;
@@ -19,11 +20,12 @@
   font-weight: 600;
   font-size: small;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 .top1 p {
   font-size: small;
-  color: #667085;
+  color: white;
 }
 
 .enter_email {
@@ -44,25 +46,23 @@
   margin-right: 8rem;
 }
 
-.legal {
+.top2_li{
+color: white;
+font-size: small;
+
 }
 
 .top2 p {
   font-size: small;
   font-weight: 500;
-  color: #667085;
+  color: white;
   margin-bottom: 0.5rem;
-}
-
-.top2 li {
-  font-size: small;
-  font-weight: 500;
 }
 
 .subscribe {
   border-radius: 5px;
   border: none;
-  background-color: #001A04;
+  background-color: #39B54A;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
   padding-left: 1rem;
@@ -78,7 +78,7 @@
   font-weight: 300;
 }
 
-.footer_bottom {
+.top3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -88,8 +88,8 @@
   margin-bottom: 2rem;
 }
 
-.footer_bottom p {
-  color: #667085;
+.top3 p {
+  color: white;
   font-size: small;
 }
 
@@ -97,6 +97,7 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -109,7 +110,7 @@
    
   }
 
-  .footer_bottom {
+  .top3 {
     flex-direction: column;
   }
 

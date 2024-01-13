@@ -16,6 +16,8 @@ import council from "../../assets/images/Homepage/council.svg";
 import counseling from "../../assets/images/Homepage/counseling.svg";
 import interview from "../../assets/images/Homepage/interview.svg";
 import writers from "../../assets/images/Homepage/writers.svg";
+import transition from "../../assets/images/Homepage/transition.svg";
+import line from "../../assets/images/Homepage/line.svg";
 
 // import { coursedata } from "./Data";
 
@@ -79,8 +81,10 @@ const Home = () => {
               Counseling
             </h4>
             <p>
-            Our Expert Counsellors Provides Personalised<br/>
-             Career Guidiance And Advice To Help You Make<br/>
+              Our Expert Counsellors Provides Personalised
+              <br />
+              Career Guidiance And Advice To Help You Make
+              <br />
               Informed Choices.
             </p>
             <div className="home_btns">
@@ -99,11 +103,9 @@ const Home = () => {
               <br /> Interview
             </h4>
             <p>
-              Build your confidence and gain effective<br/> interview
-              
-              strategies to communicate your values<br/> and
-              
-              impress potential employers.
+              Build your confidence and gain effective
+              <br /> interview strategies to communicate your values
+              <br /> and impress potential employers.
             </p>
             <div className="card_btn_ctn">
               <button className="card_btn">
@@ -118,8 +120,10 @@ const Home = () => {
               With Our Writers
             </h4>
             <p>
-            Craft resume that highlight your skills, your<br/>
-             experience, and achievements. Stand out from the<br/>
+              Craft resume that highlight your skills, your
+              <br />
+              experience, and achievements. Stand out from the
+              <br />
               crowd and make a lasting impression.
             </p>
             <div className="card_btn_ctn">
@@ -133,8 +137,8 @@ const Home = () => {
       <div className="hero5">
         <div className="hero5_left">
           <h1>
-            We Assist Immigrant &<br/> Individuals 
-            In Navigating<br/> The Job Market.
+            We Assist Immigrant &<br /> Individuals In Navigating
+            <br /> The Job Market.
           </h1>
           <p>
             We understand the unique challenges faced by new immigrants in
@@ -150,49 +154,48 @@ const Home = () => {
           </button>
         </div>
         <div className="hero5_background">
-         <img src={rings} width="30%" className="hero5_rings"/>
-         <img src={phone} width="40%" className="hero5_phone"/>
+          <img src={rings} width="30%" className="hero5_rings" />
+          <img src={phone} width="40%" className="hero5_phone" />
         </div>
       </div>
       <div className="hero6">
         <div className="hero6_left">
           <h1>
-            Transition Into Your Career <br />
-            Of Interest Easily
+            Transition Into a Tech <br />
+            Career Of Interest Easily
           </h1>
           <p>
-            We offer a wide range of courses and programs tailored to
+            We offer a wide range of courses and programs tailored to your
+            specific interests, helping you acquire
             <br />
-            yourspecific interests, helping you acquire the expertise
-            <br />
-            andconfidence to pursue your desired career path and
-            <br />
-            make asuccessful transition.
+            the expertise and confidence to pursue your desired career path and
+            make a successful transition.
           </p>
+          <img src={transition}/>
         </div>
-        <div>
-        
+        <div className="hero6_background">
+          <img src={line} className="hero6_line"/>
+          <img src={line} className="hero6_line"/>
         </div>
       </div>
       <div className="hero7">
         <div className="hero7_container">
-        <div className="hero7_top">
-          <h1>Authorized Certification</h1>
-          <p>
-            Our certification courses are self-placed and well articulated, with
-            practice questions and <br />
-            answers, PDU's and Certifications offered upon completion.
-          </p>
+          <div className="hero7_top">
+            <h1>Authorized Certification</h1>
+            <p>
+              Our certification courses are self-placed and well articulated,
+              with practice questions and <br />
+              answers, PDU's and Certifications offered upon completion.
+            </p>
+          </div>
+          <div className="hero7_bottom">
+            <img src={apmg} />
+            <img src={agile} />
+            <img src={devops} />
+            <img src={council} />
+            <img src={istqb} />
+          </div>
         </div>
-        <div className="hero7_bottom">
-          <img src={apmg} />
-          <img src={agile} />
-          <img src={devops} />
-          <img src={council} />
-          <img src={istqb} />
-        </div>
-        </div>
-        
       </div>
     </div>
   );

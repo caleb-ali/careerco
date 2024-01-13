@@ -183,6 +183,8 @@
   align-items: center;
   gap: 3rem;
   margin-top: 5rem;
+  background-color: #39B54A;
+  margin-bottom: -14.5rem;
 }
 
 .hero6_left {
@@ -190,11 +192,25 @@
   flex-direction: column;
   gap: 2rem;
   margin-left: 10%;
+  position:absolute;
+ 
 }
 
 .hero6_left p {
-  font-size: small;
+  font-size: medium;
+  text-align: center;
+  color: white;
 }
+
+.hero6_left h1 {
+  color: white;
+  text-align: center;
+}
+
+.hero6_line{
+  z-index: -1;
+}
+
 
 .hero7 {
   margin-top: 5rem;
