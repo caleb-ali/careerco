@@ -145,9 +145,9 @@
 }
 
 .hero5_left {
- position:absolute;
- margin-top: 12rem;
- margin-left:9rem ;
+  position: absolute;
+  margin-top: 12rem;
+  margin-left: 9rem;
 }
 
 .hero5_left h1 {
@@ -181,10 +181,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 3rem;
   margin-top: 5rem;
-  background-color: #39B54A;
-  margin-bottom: -14.5rem;
+  background-color: #39b54a;
+  max-height: 65rem;
 }
 
 .hero6_left {
@@ -192,8 +191,12 @@
   flex-direction: column;
   gap: 2rem;
   margin-left: 10%;
-  position:absolute;
- 
+  position: absolute;
+}
+
+.hero6_img {
+  margin-left: -3.5rem;
+  
 }
 
 .hero6_left p {
@@ -207,13 +210,16 @@
   text-align: center;
 }
 
-.hero6_line{
-  z-index: -1;
+.hero6_line {
+  margin-bottom: -2rem;
 }
 
+.hero6_line2{
+ z-index: 1;
+ margin-bottom: 6rem;
+}
 
 .hero7 {
-  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -222,6 +228,7 @@
   background-color: #f1f8f5;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  z-index: 3;
 }
 
 .hero7_container {

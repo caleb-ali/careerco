@@ -67,7 +67,7 @@ const Navbar = () => {
 
               <div className="">
                 <button className="join">
-                  <Link to="/join">Join a webinar</Link>
+                  <Link target="blank" to="https://www.eventbrite.ca/e/it-consulting-intro-to-business-analysisproject-mgtscrum-masterqadata-tickets-674367289717">Join a webinar</Link>
                 </button>
               </div>
             </nav>

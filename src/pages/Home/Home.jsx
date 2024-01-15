@@ -89,7 +89,7 @@ const Home = () => {
             </p>
             <div className="home_btns">
               <button className="card_btn">
-                <a>Book a session</a>
+                <a href="https://www.careerco.ca/booking/?v=707f3a40153b" target="blank">Book a session</a>
               </button>
               <button className="btn2">
                 <a>Take a quiz</a>
@@ -109,7 +109,7 @@ const Home = () => {
             </p>
             <div className="card_btn_ctn">
               <button className="card_btn">
-                <a>Book a spot</a>
+                <a href="https://www.careerco.ca/booking/?v=707f3a40153b" target="blank">Book a spot</a>
               </button>
             </div>
           </div>
@@ -128,7 +128,7 @@ const Home = () => {
             </p>
             <div className="card_btn_ctn">
               <button className="card_btn">
-                <a>Book a spot</a>
+                <a href="https://www.careerco.ca/booking/?v=707f3a40153b" target="blank">Book a spot</a>
               </button>
             </div>
           </div>
@@ -171,11 +171,11 @@ const Home = () => {
             the expertise and confidence to pursue your desired career path and
             make a successful transition.
           </p>
-          <img src={transition}/>
+          <img src={transition} className="hero6_img"/>
         </div>
         <div className="hero6_background">
           <img src={line} className="hero6_line"/>
-          <img src={line} className="hero6_line"/>
+          <img src={line} className="hero6_line2"/>
         </div>
       </div>
       <div className="hero7">
