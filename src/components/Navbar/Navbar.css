@@ -15,6 +15,12 @@
     color: white;
 }
 
+.topblue a {
+  color: white;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
 .topbluespan {
   font-weight: 400;
 }

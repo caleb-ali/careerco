@@ -28,7 +28,7 @@ const Navbar = () => {
         <img src={circle} width="3%" height="3%" className="circle"/>
         <p>
           Discover your career path here{" "}
-          <span className="topbluespan">Take a Quiz</span>
+          <span className="topbluespan" ><a href="http://quiz.careerco.ca/" target="blank">Take a Quiz</a></span>
         </p>
       </div>
       <div>
