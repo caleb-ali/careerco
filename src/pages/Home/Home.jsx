@@ -3,6 +3,7 @@ import "./Home.css";
 import { useState } from "react";
 import items from "./items";
 import Carousel from "../../components/Carousel/Carousel";
+import LogoScroll from "../../components/LogoScroll/LogoScroll";
 import hero from "../../assets/images/Homepage/hero.svg";
 import iiba from "../../assets/images/Homepage/iiba.svg";
 import companies from "../../assets/images/Homepage/companies.svg";
@@ -18,8 +19,30 @@ import interview from "../../assets/images/Homepage/interview.svg";
 import writers from "../../assets/images/Homepage/writers.svg";
 import transition from "../../assets/images/Homepage/transition.svg";
 import line from "../../assets/images/Homepage/line.svg";
+import logo1 from "../../assets/images/Homepage/logo1.svg";
+import logo2 from "../../assets/images/Homepage/logo2.svg";
+import logo3 from "../../assets/images/Homepage/logo3.svg";
+import logo4 from "../../assets/images/Homepage/logo4.svg";
+import logo5 from "../../assets/images/Homepage/logo5.svg";
+import logo6 from "../../assets/images/Homepage/logo6.svg";
+import logo7 from "../../assets/images/Homepage/logo7.svg";
+import logo8 from "../../assets/images/Homepage/logo8.svg";
+import logo9 from "../../assets/images/Homepage/logo9.svg";
+import logo10 from "../../assets/images/Homepage/logo10.svg";
 
-// import { coursedata } from "./Data";
+const logos = [
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
+  logo6,
+  logo7,
+  logo8,
+  logo9,
+  logo10,
+  // ... more logos
+];
 
 const Home = () => {
   return (
@@ -55,7 +78,8 @@ const Home = () => {
       </div>
       <div className="hero2">
         <h4>Trained Alumni that working in these companies</h4>
-        <img src={companies} />
+        {/* <img src={companies} /> */}
+        <LogoScroll logos={logos} />
       </div>
       <div className="hero3">
         <h2>Choose a Course</h2>
@@ -89,7 +113,12 @@ const Home = () => {
             </p>
             <div className="home_btns">
               <button className="card_btn">
-                <a href="https://www.careerco.ca/booking/?v=707f3a40153b" target="blank">Book a session</a>
+                <a
+                  href="https://www.careerco.ca/booking/?v=707f3a40153b"
+                  target="blank"
+                >
+                  Book a session
+                </a>
               </button>
               <button className="btn2">
                 <a>Take a quiz</a>
@@ -109,7 +138,12 @@ const Home = () => {
             </p>
             <div className="card_btn_ctn">
               <button className="card_btn">
-                <a href="https://www.careerco.ca/booking/?v=707f3a40153b" target="blank">Book a spot</a>
+                <a
+                  href="https://www.careerco.ca/booking/?v=707f3a40153b"
+                  target="blank"
+                >
+                  Book a spot
+                </a>
               </button>
             </div>
           </div>
@@ -128,7 +162,12 @@ const Home = () => {
             </p>
             <div className="card_btn_ctn">
               <button className="card_btn">
-                <a href="https://www.careerco.ca/booking/?v=707f3a40153b" target="blank">Book a spot</a>
+                <a
+                  href="https://www.careerco.ca/booking/?v=707f3a40153b"
+                  target="blank"
+                >
+                  Book a spot
+                </a>
               </button>
             </div>
           </div>
@@ -171,11 +210,11 @@ const Home = () => {
             the expertise and confidence to pursue your desired career path and
             make a successful transition.
           </p>
-          <img src={transition} className="hero6_img"/>
+          <img src={transition} className="hero6_img" />
         </div>
         <div className="hero6_background">
-          <img src={line} className="hero6_line"/>
-          <img src={line} className="hero6_line2"/>
+          <img src={line} className="hero6_line" />
+          <img src={line} className="hero6_line2" />
         </div>
       </div>
       <div className="hero7">

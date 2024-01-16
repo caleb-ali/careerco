@@ -1,0 +1,26 @@
+/* LogoScroller.css */
+
+.logo-scroller {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .logo-container {
+    display: flex;
+    animation: scroll-logos 10s linear infinite;
+  }
+  
+  @keyframes scroll-logos {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .logo-container img {
+    height: 50px; /* Adjust based on your requirement */
+    margin: 0 20px;
+  }
+  
