@@ -147,7 +147,7 @@
 .hero5_left {
   position: absolute;
   margin-top: 12rem;
-  margin-left: 9rem;
+  margin-left: 8%;
 }
 
 .hero5_left h1 {
@@ -196,7 +196,6 @@
 
 .hero6_img {
   margin-left: -3.5rem;
-  
 }
 
 .hero6_left p {
@@ -214,9 +213,8 @@
   margin-bottom: -2rem;
 }
 
-.hero6_line2{
- z-index: 1;
- margin-bottom: 6rem;
+.hero6_line2 {
+  margin-bottom: 6rem;
 }
 
 .hero7 {
@@ -254,4 +252,27 @@
 }
 
 @media screen and (max-width: 768px) {
+}
+
+@media screen and (min-width: 1441px) {
+  .hero1 {
+    margin-left: 16%;
+  }
+
+  .hero_image {
+    right: 14%;
+  }
+
+  .hero5_left {
+    margin-left: 18%;
+  }
+
+  .hero6_left {
+   
+    gap: 2rem;
+    margin-left: 20%;
+   
+  }
+
+
 }

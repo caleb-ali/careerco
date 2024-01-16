@@ -42,6 +42,7 @@ const Footer = () => {
                 <li>
                   <Link to="" className="top2_li">All Courses</Link>
                 </li>
+                <button className="new_btn">new</button>
               </ul>
             </div>
           </div>
@@ -60,6 +61,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        <div class="line"></div>
         <div className="top3">
           <div>
             <p>© 2023 Careerco. All rights reserved.</p>
