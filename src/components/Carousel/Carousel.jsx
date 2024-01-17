@@ -20,7 +20,8 @@ const Carousel = ({ items }) => {
 
 
   return (
-    <div className="carousel-container">
+    <div>
+<div className="carousel-container">
       <img src={back} onClick={goBack} className='back_btn'/>
       <div className="carousel">
         {items.slice(currentIndex, currentIndex + 4).map((item, index) => (
@@ -48,6 +49,36 @@ const Carousel = ({ items }) => {
       </div>
       <img src={front} onClick={goForward} className='forward_btn'/>
     </div>
+    <div className="mobcarousel-container">
+      <img src={back} onClick={goBack} className='back_btn'/>
+      <div className="carousel">
+        {items.slice(currentIndex, currentIndex + 1).map((item, index) => (
+          <div key={index} className="card">
+            <img src={item.image} alt={item.title} width="230px"/>
+            <div className='carousel_title_div'>
+            <h3>{item.title}</h3>
+            <p>{item.price}</p>
+            </div>
+            <div className='card_row'>
+              <div className='card_row2'>
+                <img src={stopwatch}/>
+                <p>10 Weeks</p>
+              </div>
+              <div className='card_row2'>
+              <img src={diamond}/>
+                <p>Practical</p>
+              </div>
+            </div>
+            <button className="btn2">
+              <a>Buy Course</a>
+            </button>
+          </div>
+        ))}
+      </div>
+      <img src={front} onClick={goForward} className='forward_btn'/>
+    </div>
+    </div>
+    
   );
 };
 

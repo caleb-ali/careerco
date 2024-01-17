@@ -29,6 +29,7 @@ import logo7 from "../../assets/images/Homepage/logo7.svg";
 import logo8 from "../../assets/images/Homepage/logo8.svg";
 import logo9 from "../../assets/images/Homepage/logo9.svg";
 import logo10 from "../../assets/images/Homepage/logo10.svg";
+import mobhero from "../../assets/images/Homepage/mobileheroimg.svg";
 
 const logos = [
   logo1,
@@ -54,10 +55,16 @@ const Home = () => {
             <br /> experiential learning.
           </h1>
           <p>
-            We offer diverse courses and guarantee dream job success through
-            practical <br />
-            work, resume aid, interview prep, and personalized support.
+          We provide diverse courses for individuals with zero or <br/>
+          some experience with hands-on practical, resume prep,<br/>
+           interview prep, and personalized support.
           </p>
+          {/* <p className="hero1_p_mobile" >
+            We offer diverse courses and guarantee dream <br/>job success through
+            practical 
+            work, resume aid,<br/> interview prep, and personalized support.
+          </p> */}
+          
           <div className="hero_btn">
             <button className="join">
               <a>Get Started</a>
@@ -73,6 +80,7 @@ const Home = () => {
           </div>
         </div>
         <div>
+          <img src={mobhero} className="mob_hero_img"/>
           <img src={hero} className="hero_image" />
         </div>
       </div>
@@ -228,7 +236,7 @@ const Home = () => {
             </p>
           </div>
           <div className="hero7_bottom">
-            <img src={apmg} />
+            <img src={apmg}  className=""/>
             <img src={agile} />
             <img src={devops} />
             <img src={council} />

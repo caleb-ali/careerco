@@ -4,15 +4,16 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  background-color: #001A04;
+  background-color: #001a04;
   color: white;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-weight: 300;
 }
 
-.topblue p,span {
-    color: white;
+.topblue p,
+span {
+  color: white;
 }
 
 .topblue a {
@@ -42,21 +43,20 @@
 }
 
 .search_logo {
-   position: absolute;
-   padding-left: 0.5rem;
-   padding-top: 0.6rem;
-   margin-left: 0.5rem;
+  position: absolute;
+  padding-left: 0.5rem;
+  padding-top: 0.6rem;
+  margin-left: 0.5rem;
 }
 
-
-.search_course{
-   width: 15rem;
-   padding: 0.6rem;
-   padding-left: 2.5rem;
-   border-radius: 1rem;
-   border-width: 0.5px;
-   color: #E4E4E4;
-   font-size: medium;
+.search_course {
+  width: 15rem;
+  padding: 0.6rem;
+  padding-left: 2.5rem;
+  border-radius: 1rem;
+  border-width: 0.5px;
+  color: #e4e4e4;
+  font-size: medium;
 }
 
 .navigationdesktop {
@@ -80,13 +80,13 @@ li {
 
 li a {
   text-decoration: none;
-  color: #001A04;
+  color: #001a04;
 }
 
 .join {
   border-radius: 20px;
   border: none;
-  background-color: #39B54A;
+  background-color: #39b54a;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -122,39 +122,40 @@ li a {
 }
 
 @media screen and (max-width: 768px) {
-    .topblue {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        background-color: #001A04;
-        color: white;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-weight: 300;
-        font-size: medium;
-      }
+ 
+  .topblue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #001a04;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 300;
+    font-size: medium;
+  }
 
-      .circle{
-        width: 10%;
-        
-      }
+  .circle {
+    width: 10%;
+  }
 
   .navbardesktop {
     display: none;
   }
 
   .mobile_logo {
-    width: 4rem;
+    width: 6rem;
   }
 
   .navbarmobile {
     display: block;
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
   }
 
   .mobiletop {

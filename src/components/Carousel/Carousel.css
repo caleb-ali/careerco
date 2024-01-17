@@ -2,7 +2,10 @@
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
- 
+}
+
+.mobcarousel-container {
+  display: none;
 }
 
 .carousel {
@@ -19,14 +22,8 @@
   padding: 1rem;
   padding-bottom: 2rem;
   border-radius: 20px;
-  border: 1px solid #CED1D5;
-  
+  border: 1px solid #ced1d5;
 }
-
-/* .card img {
-  
-    
-  } */
 
 .carousel_title_div {
   display: flex;
@@ -38,23 +35,19 @@
 .carousel_title_div h3 {
   font-size: small;
   font-weight: 600;
- 
 }
 
 .carousel_title_div p {
   font-size: small;
   font-weight: 600;
- 
 }
 
 .back_btn {
   margin-right: -1.5rem;
-  
 }
 
 .forward_btn {
   margin-left: -1.5rem;
- 
 }
 
 .card_row {
@@ -75,4 +68,16 @@
   justify-content: center;
   align-items: center;
   gap: 0.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    display: none;
+  }
+
+  .mobcarousel-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
 }

@@ -57,6 +57,10 @@
   z-index: -1;
 }
 
+.mob_hero_img {
+  display: none;
+}
+
 .hero2 {
   display: flex;
   flex-direction: column;
@@ -252,6 +256,105 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hero1 {
+    flex-direction: column;
+    margin-left: 0%;
+    
+  }
+
+  .hero_left {
+  align-items: center;
+  margin-left: 0;
+  }
+  .hero_left h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero_left p {
+    font-size: small;
+    text-align: center;
+  }
+
+  .hero_image {
+    display: none;
+  }
+
+  .mob_hero_img {
+    display: block;
+  }
+
+  .hero2 {
+    margin-top: 2rem;
+  }
+
+  .hero2 h4 {
+    font-size: small;
+  }
+
+  .hero3 p {
+    font-size: small;
+    margin-left: 5%;
+  }
+
+  .hero4 h2 {
+    font-size: 1.4rem;
+  }
+
+  .hero4 p {
+    font-size: small;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .card_container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .hero5 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero5_background {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero5_left {
+    position: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 8%;
+  }
+
+  .hero5_left h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .hero5_left p {
+    margin-bottom: 1.5rem;
+    font-size: medium;
+  }
+
+  .hero5_rings {
+    z-index: -1;
+    margin-top: -1rem;
+  }
+
+  .hero5_phone {
+    z-index: -1;
+    width: 90%;
+  }
+  
+  .hero6{
+    display: none;
+  }
+
+  .hero7 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1441px) {
@@ -268,11 +371,7 @@
   }
 
   .hero6_left {
-   
     gap: 2rem;
     margin-left: 20%;
-   
   }
-
-
 }

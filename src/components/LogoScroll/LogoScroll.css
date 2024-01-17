@@ -20,7 +20,14 @@
   }
   
   .logo-container img {
-    height: 50px; /* Adjust based on your requirement */
+    height: 40px; /* Adjust based on your requirement */
     margin: 0 20px;
+  }
+
+  @media screen and (max-width: 768px){
+    .logo-container img {
+      height: 30px; /* Adjust based on your requirement */
+      margin: 0 15px;
+    }
   }
   
