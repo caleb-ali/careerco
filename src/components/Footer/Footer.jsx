@@ -14,7 +14,7 @@ const Footer = () => {
             <h4>Join our Newsletter</h4>
             <p>We’ll send you a nice letter once per week. No spam.</p>
           </div>
-          <div>
+          <div className="footer_email">
             <input
               className="enter_email"
               type="text"
@@ -39,10 +39,13 @@ const Footer = () => {
                 <li>
                   <Link to="" className="top2_li">Contact Us</Link>
                 </li>
+                <div className="footer_new">
                 <li>
                   <Link to="" className="top2_li">All Courses</Link>
                 </li>
                 <button className="new_btn">new</button>
+                </div>
+                
               </ul>
             </div>
           </div>

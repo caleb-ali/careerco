@@ -112,7 +112,12 @@ font-size: small;
   padding-left: 0.4rem;
   padding-right: 0.4rem;
   color: #39B54A;
-  margin-left: -1.5rem;
+  margin-left: 0.5rem;
+}
+
+.footer_new{
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 768px) {
@@ -134,5 +139,35 @@ font-size: small;
     flex-direction: column;
    
   }
+
+  .footer_email{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .enter_email{
+  width: 100%;
+  }
+
+  .subscribe{
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+  .top3{
+    flex-direction: column-reverse;
+  }
   
+  .footer_new{
+    display: flex;
+    flex-direction: row;
+  }
+
+ .socials img {
+  width: 5%;
+  margin-bottom: 1rem;
+ }
 }

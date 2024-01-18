@@ -30,6 +30,7 @@ import logo8 from "../../assets/images/Homepage/logo8.svg";
 import logo9 from "../../assets/images/Homepage/logo9.svg";
 import logo10 from "../../assets/images/Homepage/logo10.svg";
 import mobhero from "../../assets/images/Homepage/mobileheroimg.svg";
+import hero6mob from "../../assets/images/Homepage/hero6mobile.svg";
 
 const logos = [
   logo1,
@@ -55,16 +56,17 @@ const Home = () => {
             <br /> experiential learning.
           </h1>
           <p>
-          We provide diverse courses for individuals with zero or <br/>
-          some experience with hands-on practical, resume prep,<br/>
-           interview prep, and personalized support.
+            We provide diverse courses for individuals with zero or <br />
+            some experience with hands-on practical, resume prep,
+            <br />
+            interview prep, and personalized support.
           </p>
           {/* <p className="hero1_p_mobile" >
             We offer diverse courses and guarantee dream <br/>job success through
             practical 
             work, resume aid,<br/> interview prep, and personalized support.
           </p> */}
-          
+
           <div className="hero_btn">
             <button className="join">
               <a>Get Started</a>
@@ -80,7 +82,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src={mobhero} className="mob_hero_img"/>
+          <img src={mobhero} className="mob_hero_img" />
           <img src={hero} className="hero_image" />
         </div>
       </div>
@@ -100,7 +102,7 @@ const Home = () => {
       </div>
       <div className="hero4">
         <h2>Not Sure Where to Begin</h2>
-        <p>
+        <p className="hero4_p">
           If you are unsure about which path to take, book a session with our
           <br />
           professional career coach for any career advice or support.
@@ -225,6 +227,20 @@ const Home = () => {
           <img src={line} className="hero6_line2" />
         </div>
       </div>
+      <div className="hero6_mobile">
+        <h4>
+          Transition Into a Tech <br />
+          Career Of Interest Easily
+        </h4>
+        <p>
+          We offer a wide range of courses and programs tailored to your
+          specific interests, helping you acquire
+          <br />
+          the expertise and confidence to pursue your desired career path and
+          make a successful transition.
+        </p>
+        <img src={hero6mob}/>
+      </div>
       <div className="hero7">
         <div className="hero7_container">
           <div className="hero7_top">
@@ -236,11 +252,11 @@ const Home = () => {
             </p>
           </div>
           <div className="hero7_bottom">
-            <img src={apmg}  className=""/>
-            <img src={agile} />
-            <img src={devops} />
-            <img src={council} />
-            <img src={istqb} />
+            <img src={apmg} width="15%"/>
+            <img src={agile} width="15%"/>
+            <img src={devops} width="15%"/>
+            <img src={council} width="15%"/>
+            <img src={istqb} width="15%"/>
           </div>
         </div>
       </div>

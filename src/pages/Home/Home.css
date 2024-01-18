@@ -188,6 +188,9 @@
   margin-top: 5rem;
   background-color: #39b54a;
   max-height: 65rem;
+
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px; 
 }
 
 .hero6_left {
@@ -219,6 +222,10 @@
 
 .hero6_line2 {
   margin-bottom: 6rem;
+}
+
+.hero6_mobile {
+  display: none;
 }
 
 .hero7 {
@@ -259,12 +266,11 @@
   .hero1 {
     flex-direction: column;
     margin-left: 0%;
-    
   }
 
   .hero_left {
-  align-items: center;
-  margin-left: 0;
+    align-items: center;
+    margin-left: 0;
   }
   .hero_left h1 {
     font-size: 1.7rem;
@@ -300,10 +306,13 @@
     font-size: 1.4rem;
   }
 
+  .hero4_p {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
   .hero4 p {
     font-size: small;
-    margin-left: 5%;
-    margin-right: 5%;
   }
 
   .card_container {
@@ -330,12 +339,12 @@
 
   .hero5_left h1 {
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
   .hero5_left p {
     margin-bottom: 1.5rem;
-    font-size: medium;
+    font-size: small;
   }
 
   .hero5_rings {
@@ -346,14 +355,62 @@
   .hero5_phone {
     z-index: -1;
     width: 90%;
+    margin-top: -10rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
   }
-  
-  .hero6{
+
+  .hero6 {
     display: none;
   }
 
-  .hero7 {
+  .hero6_mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: #39b54a;
+    gap: 1.5rem;
+    align-items: center;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+   
+  }
+
+  .hero6_mobile h4 {
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    text-align: center;
+    
+  }
+
+  .hero6_mobile  p {
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: small;
+    text-align: center;
+    
+  }
+
+  /* .hero7 {
     display: none;
+  } */
+
+  .hero7{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .hero7 h1 {
+    font-size: 1.4rem;
+  }
+
+  .hero7 p {
+    font-size: small;
+  }
+
+  .hero7_bottom{
+    margin-top: 1rem;
   }
 }
 
