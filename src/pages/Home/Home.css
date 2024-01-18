@@ -274,6 +274,8 @@
   }
   .hero_left h1 {
     font-size: 1.7rem;
+    align-items: center;
+    margin-left: 5%
   }
 
   .hero_left p {
